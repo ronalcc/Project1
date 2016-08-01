@@ -23,7 +23,7 @@ class Project1 extends Component {
           To get started, edit index.ios.js
         </Text>
         <Text style={styles.instructions}>
-          Pdwdwdwdw
+          单位的都都
         </Text>
       </View>
     );
