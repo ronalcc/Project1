@@ -23,8 +23,7 @@ class Project1 extends Component {
           To get started, edit index.ios.js
         </Text>
         <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
+          单位的都都
         </Text>
       </View>
     );
