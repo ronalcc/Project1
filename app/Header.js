@@ -15,14 +15,15 @@ class Header extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Image source={require('../images/header/header_logo.png')} style={styles.logo}/>
                 <View style={styles.searchBox}>
                     <Image source={require('../images/header/icon_search.png')} style={styles.searchIcon}/>
                     <TextInput
-                        keyboardType='web-search'
-                        placeholder='游泳'
+                        //keyboardType='web-search'
+                        placeholder='搜索课程'
+                        underlineColorAndroid={'transparent'}
+                        textAlignVertical={'bottom'}
                         //style={[ {flex:1, fontSize: 12, textAlign: "center", textAlignVertical: "center"}]}
-                        style = {styles.inputText}
+                        style={styles.inputText}
                     />
                     <Image source={require('../images/header/icon_voice.png')} style={styles.voiceIcon}/>
                 </View>
@@ -80,9 +81,14 @@ const styles = StyleSheet.create({
     },
     inputText: {
         flex: 1,
-        backgroundColor: 'transparent',
-        fontSize: 12,
-        //textAlignVertical:'center'
+        //backgroundColor: 'transparent',
+        //fontSize: 10,
+        // borderWidth: 3,
+        //borderColor: 'gray',
+        height: 50,
+        borderColor: 'gray',
+        borderWidth: 1
+
     }
 });
 

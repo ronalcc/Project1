@@ -12,6 +12,5 @@ import {
   View
 } from 'react-native';
 
-import  Header from './app/Header'
-
-AppRegistry.registerComponent('Project1', () => Header);
+import  MainScreen from './app/MainScreen'
+AppRegistry.registerComponent('Project1', () => MainScreen);
